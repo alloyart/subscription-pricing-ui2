@@ -11,4 +11,3 @@ await cp(join(root, 'styles.css'), join(dist, 'styles.css'));
 await cp(join(root, 'src', 'app.js'), join(dist, 'src', 'app.js'));
 await cp(join(root, 'src', 'copy.js'), join(dist, 'src', 'copy.js'));
 await writeFile(join(dist, '.nojekyll'), '');
-console.log('Built static site to dist/');
