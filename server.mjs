@@ -26,6 +26,4 @@ createServer(async (req, res) => {
     res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' });
     res.end('Not found');
   }
-}).listen(port, '127.0.0.1', () => {
-  console.log(`subscription-pricing-ui2 running at http://127.0.0.1:${port}`);
-});
+}).listen(port, '127.0.0.1');
